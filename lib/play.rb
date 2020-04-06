@@ -36,10 +36,7 @@ def turn(board)
 end
 
 def play(board)
-  loop do
-    turn(board)
-    until
-      play(board) == 9
+
 end
 
 
